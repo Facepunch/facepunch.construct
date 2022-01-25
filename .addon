@@ -2,7 +2,7 @@
   "SharedAssets": "*.*",
   "Title": "Construct",
   "Type": "map",
-  "Org": "local",
+  "Org": "facepunch",
   "Ident": "construct",
   "Schema": 1,
   "HasAssets": true,
