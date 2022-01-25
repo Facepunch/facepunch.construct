@@ -1,0 +1,13 @@
+{
+  "SharedAssets": "*.*",
+  "Title": "Construct",
+  "Type": "map",
+  "Org": "local",
+  "Ident": "construct",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": "Sandbox"
+}
