@@ -1,2 +1,4 @@
-
+maps/_bakeresourcecache/
+maps/prefabs/construct/_bakeresourcecache/
+*.los
 *.vpk
