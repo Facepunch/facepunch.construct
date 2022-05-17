@@ -13,11 +13,11 @@
 			{
 				m_blendMode = "BLOOM_BLEND_SCREEN"
 				m_flBloomStrength = 0.2
-				m_flScreenBloomStrength = 0.3462
+				m_flScreenBloomStrength = 0.2008
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 0.8
-				m_flBloomThresholdWidth = 0.2
-				m_flSkyboxBloomStrength = 0.7917
+				m_flBloomThreshold = 0.924
+				m_flBloomThresholdWidth = 0.2985
+				m_flSkyboxBloomStrength = 0.6413
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[
@@ -35,6 +35,15 @@
 			}
 		},
 		{
+			_class = "CVibranceColorCorrectionLayer"
+			m_name = "Saturation/Vibrance 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nVibrance = 20
+			m_nSaturation = -10
+		},
+		{
 			_class = "CToneMappingLayer"
 			m_name = "Tone Mapping 5"
 			m_nOpacityPercent = 100
@@ -42,14 +51,14 @@
 			m_pLayerMask = null
 			m_params = 
 			{
-				m_flExposureBias = -1.0104
-				m_flShoulderStrength = 0.4012
-				m_flLinearStrength = 0.1973
-				m_flLinearAngle = 0.5463
-				m_flToeStrength = 0.5485
+				m_flExposureBias = -1.5264
+				m_flShoulderStrength = 1.0
+				m_flLinearStrength = 0.1111
+				m_flLinearAngle = 0.2026
+				m_flToeStrength = 0.1546
 				m_flToeNum = 0.0
-				m_flToeDenom = 0.16
-				m_flWhitePoint = 4.5
+				m_flToeDenom = 0.2705
+				m_flWhitePoint = 4.7826
 			}
 		},
 	]
