@@ -1,0 +1,35 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nCounterMin = 1
+	m_nCounterMax = 1
+	m_flSpacing = 48.0
+	m_flRadius = 15.0
+	m_flEraseAmount = 1.0
+	m_bConstantDensity = false
+	m_bOnlyHitMeshes = true
+	m_bRadialFalloff = true
+	m_elements = 
+	[
+		{
+			m_assetName = "models/sbox_props/megascan/grass_clumps/grass_clump_a.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.44
+				m_flMaxScale = 0.64
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+	]
+}

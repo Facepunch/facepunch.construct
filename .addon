@@ -1,5 +1,4 @@
 {
-  "SharedAssets": "*.*",
   "Title": "Construct",
   "Type": "map",
   "Org": "facepunch",
@@ -10,5 +9,6 @@
   "ResourcePaths": null,
   "HasCode": false,
   "CodePath": null,
-  "RootNamespace": "Sandbox"
+  "RootNamespace": "Sandbox",
+  "Metadata": {}
 }
