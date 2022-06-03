@@ -65,6 +65,25 @@
 							]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/megascan/grass_clumps/grass_clumps_c.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"lod2",
+							]
+						}
+					},
 				]
 			},
 			{
@@ -101,11 +120,24 @@
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 35.0
+						switch_threshold = 8.0
 						meshes = 
 						[
 							"unnamed_2",
 						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 20.0
+						meshes = 
+						[
+							"unnamed_3",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 64.0
+						meshes = [  ]
 					},
 				]
 			},
