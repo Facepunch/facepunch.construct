@@ -13,11 +13,11 @@
 			{
 				m_blendMode = "BLOOM_BLEND_SCREEN"
 				m_flBloomStrength = 0.2
-				m_flScreenBloomStrength = 0.4976
+				m_flScreenBloomStrength = 0.35
 				m_flBlurBloomStrength = 1.0
-				m_flBloomThreshold = 0.8
-				m_flBloomThresholdWidth = 0.6485
-				m_flSkyboxBloomStrength = 0.4906
+				m_flBloomThreshold = 0.999
+				m_flBloomThresholdWidth = 2.9995
+				m_flSkyboxBloomStrength = 0.4953
 				m_flBloomStartValue = 1.0
 				m_flBlurWeight = 
 				[
@@ -36,13 +36,49 @@
 		},
 		{
 			_class = "CToneMappingLayer"
-			m_name = "Tone Mapping 5"
+			m_name = "Tone Mapping 2"
+			m_nOpacityPercent = 100
+			m_bVisible = false
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_flExposureBias = 0.0
+				m_flShoulderStrength = 0.15
+				m_flLinearStrength = 0.5
+				m_flLinearAngle = 0.1
+				m_flToeStrength = 0.2
+				m_flToeNum = 0.02
+				m_flToeDenom = 0.3
+				m_flWhitePoint = 4.0
+			}
+		},
+		{
+			_class = "CToneMappingLayer"
+			m_name = "Tone Mapping 3"
 			m_nOpacityPercent = 100
 			m_bVisible = true
 			m_pLayerMask = null
 			m_params = 
 			{
-				m_flExposureBias = -1.8968
+				m_flExposureBias = 0.0
+				m_flShoulderStrength = 0.65
+				m_flLinearStrength = 0.0999
+				m_flLinearAngle = 0.75
+				m_flToeStrength = 0.7417
+				m_flToeNum = 0.0
+				m_flToeDenom = 0.35
+				m_flWhitePoint = 1.9998
+			}
+		},
+		{
+			_class = "CToneMappingLayer"
+			m_name = "Tone Mapping 5"
+			m_nOpacityPercent = 100
+			m_bVisible = false
+			m_pLayerMask = null
+			m_params = 
+			{
+				m_flExposureBias = -1.0976
 				m_flShoulderStrength = 0.6475
 				m_flLinearStrength = 0.0447
 				m_flLinearAngle = 0.3972
