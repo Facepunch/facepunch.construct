@@ -35,28 +35,67 @@
 			}
 		},
 		{
+			_class = "CLevelsColorCorrectionLayer"
+			m_name = "Levels 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nInputBlackPointRGB = 7
+			m_nInputBlackPointR = 0
+			m_nInputBlackPointG = 0
+			m_nInputBlackPointB = 0
+			m_nInputWhitePointRGB = 249
+			m_nInputWhitePointR = 255
+			m_nInputWhitePointG = 255
+			m_nInputWhitePointB = 255
+			m_nOutputBlackPointRGB = 0
+			m_nOutputBlackPointR = 0
+			m_nOutputBlackPointG = 0
+			m_nOutputBlackPointB = 0
+			m_nOutputWhitePointRGB = 255
+			m_nOutputWhitePointR = 255
+			m_nOutputWhitePointG = 255
+			m_nOutputWhitePointB = 255
+			m_flGammaRGB = 1.07
+			m_flGammaR = 1.0
+			m_flGammaG = 1.0
+			m_flGammaB = 1.0
+		},
+		{
+			_class = "CColorTintColorCorrectionLayer"
+			m_name = "Color Tint 0"
+			m_nOpacityPercent = 100
+			m_bVisible = true
+			m_pLayerMask = null
+			m_nTintColorR = 135
+			m_nTintColorG = 206
+			m_nTintColorB = 250
+			m_nStrength = 15
+			m_bPreserveLuminosity = true
+		},
+		{
 			_class = "CToneMappingLayer"
 			m_name = "Tone Mapping 2"
 			m_nOpacityPercent = 100
-			m_bVisible = false
+			m_bVisible = true
 			m_pLayerMask = null
 			m_params = 
 			{
-				m_flExposureBias = 0.0
-				m_flShoulderStrength = 0.15
-				m_flLinearStrength = 0.5
-				m_flLinearAngle = 0.1
-				m_flToeStrength = 0.2
-				m_flToeNum = 0.02
-				m_flToeDenom = 0.3
-				m_flWhitePoint = 4.0
+				m_flExposureBias = 0.2104
+				m_flShoulderStrength = 0.2201
+				m_flLinearStrength = 0.5406
+				m_flLinearAngle = 0.11
+				m_flToeStrength = 0.1481
+				m_flToeNum = 0.0234
+				m_flToeDenom = 0.3014
+				m_flWhitePoint = 2.8128
 			}
 		},
 		{
 			_class = "CToneMappingLayer"
 			m_name = "Tone Mapping 3"
 			m_nOpacityPercent = 100
-			m_bVisible = true
+			m_bVisible = false
 			m_pLayerMask = null
 			m_params = 
 			{
