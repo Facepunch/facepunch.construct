@@ -10,5 +10,9 @@
   "ResourcePaths": null,
   "HasCode": false,
   "CodePath": null,
-  "Metadata": {}
+  "Metadata": {
+    "Summary": "A simple construct map",
+    "Description": "This is the default map. It both has purpose and no purpose.",
+    "Public": true
+  }
 }
